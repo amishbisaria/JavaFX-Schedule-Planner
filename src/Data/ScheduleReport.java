@@ -35,11 +35,6 @@ public class ScheduleReport
         return scheduleItems;
     }
 
-//    public void setScheduleItems(List<ScheduleItem> scheduleItems)
-//    {
-//        this.scheduleItems = scheduleItems;
-//    }
-
     //store items in file
     public void storeItems() throws IOException
     {
