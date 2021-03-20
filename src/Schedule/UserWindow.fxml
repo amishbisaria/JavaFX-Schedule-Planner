@@ -9,25 +9,28 @@
             xmlns:fx="http://javafx.com/fxml">
     <left>
         <ListView fx:id="scheduleView">
-
         </ListView>
     </left>
     <center>
         <VBox style="-fx-background-color: white">
-            <TextArea fx:id="fullInfoTextArea" VBox.vgrow="ALWAYS" style="-fx-control-inner-background: wheat"/>
+            <TextArea fx:id="fullInfoTextArea" VBox.vgrow="ALWAYS" style="-fx-control-inner-background: wheat">
+                <font>
+                    <Font name="Times New Roman bold" size="25"/>
+                </font>
+            </TextArea>
             <HBox>
-                <Label text="Due: " style="-fx-background-color: white">
+                <Label text="Date: " style="-fx-background-color: white">
                     <font>
-                        <Font name="Times New Roman bold" size="20"/>
+                        <Font name="Times New Roman bold" size="25"/>
                     </font>
                 </Label>
                 <Label fx:id="dueLabel" style="-fx-background-color: white">
                     <font>
-                        <Font name="Times New Roman bold" size="20"/>
+                        <Font name="Times New Roman bold" size="25"/>
                     </font>
                 </Label>
+
             </HBox>
         </VBox>
-
     </center>
 </BorderPane>
