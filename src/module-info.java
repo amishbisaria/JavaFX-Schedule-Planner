@@ -1,6 +1,5 @@
-module JavaFXApplication {
+module SchedulePlanner {
     requires javafx.fxml;
     requires javafx.controls;
-
-    opens sample;
+    opens Schedule;
 }
